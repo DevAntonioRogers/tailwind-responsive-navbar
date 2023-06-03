@@ -1,3 +1,4 @@
+import Whitespace from "./components/Whitespace";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 
@@ -6,6 +7,7 @@ const App = () => {
     <>
       <Navbar />
       <Hero />
+      <Whitespace />
     </>
   );
 };
